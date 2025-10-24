@@ -1,0 +1,554 @@
+--- Quit: Ctrl+C | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+ : Yes
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   385752 B ( 376.7 KB)
+  Free Bytes        :   351368 B ( 343.1 KB)
+  Allocated Bytes   :    29304 B (  28.6 KB)
+  Minimum Free Bytes:   347448 B ( 339.3 KB)
+  Largest Free Block:   278516 B ( 272.0 KB)
+------------------------------------------
+SPIRAM Memory Info:
+------------------------------------------
+  Total Size        :        0 B (   0.0 KB)
+  Free Bytes        :        0 B (   0.0 KB)
+  Allocated Bytes   :        0 B (   0.0 KB)
+  Minimum Free Bytes:        0 B (   0.0 KB)
+  Largest Free Block:        0 B (   0.0 KB)
+  Bus Mode          : OPI
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         :  8388608 B (8 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 80 MHz
+  Bus Mode          : QIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    20.0 KB, type: DATA, subtype: NVS
+            otadata : addr: 0x0000E000, size:     8.0 KB, type: DATA, subtype: OTA
+               app0 : addr: 0x00010000, size:  3072.0 KB, type:  APP, subtype: OTA_0
+             spiffs : addr: 0x00310000, size:   896.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x003F0000, size:    64.0 KB, type: DATA, subtype: COREDUMP
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : Oct 25 2025 08:10:39
+  ESP-IDF Version   : v5.4.2-25-g858a988d6e
+  Arduino Version   : 3.2.1
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : M5Stack StampS3
+  Arduino Variant   : m5stack_stamp_s3
+  Core Debug Level  : 5
+  Arduino Runs Core : 1
+  Arduino Events on : 1
+  Arduino USB Mode  : 1
+  CDC On Boot       : 1
+============ Before Setup End ============
+[  3740][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type I2C_MASTER_SDA (30) successfully set to 0x420130f8
+[  3741][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type I2C_MASTER_SCL (31) successfully set to 0x420130f8
+[  3742][I][esp32-hal-i2c-ng.c:105] i2cInit(): Initializing I2C Master: num=1 sda=12 scl=11 freq=100000
+[  3743][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 12 successfully set to type I2C_MASTER_SDA (30) with bus 0x2
+[  3744][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 11 successfully set to type I2C_MASTER_SCL (31) with bus 0x2
+[  3745][V][common.cpp:1632] writeBytes(): [LGFX] i2c write error : ack wait
+[  3746][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 11 successfully set to type INIT (0) with bus 0x0
+[  3747][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 12 successfully set to type INIT (0) with bus 0x0
+[  3749][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  3749][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  3750][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  3751][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  3751][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3752][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type GPIO (1) with bus 0x7
+[  3753][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  3753][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3754][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type GPIO (1) with bus 0x6
+[  3754][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  3757][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  3758][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type INIT (0) with bus 0x0
+[  3759][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type INIT (0) with bus 0x0
+[  3763][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  3763][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  3764][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  3765][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  3765][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3766][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 17 successfully set to type GPIO (1) with bus 0x12
+[  3767][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 17 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  3768][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3768][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 21 successfully set to type GPIO (1) with bus 0x16
+[  3769][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 21 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  3771][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  3772][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 17 successfully set to type INIT (0) with bus 0x0
+[  3773][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 21 successfully set to type INIT (0) with bus 0x0
+[  3776][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  3777][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  3777][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  3778][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  3779][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3780][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type GPIO (1) with bus 0x7
+[  3780][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  3781][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3781][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type GPIO (1) with bus 0x6
+[  3782][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  3785][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  3786][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type INIT (0) with bus 0x0
+[  3786][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type INIT (0) with bus 0x0
+[  3789][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  3790][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  3791][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  3792][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  3792][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3793][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 36 successfully set to type GPIO (1) with bus 0x25
+[  3794][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 36 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  3794][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3795][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 35 successfully set to type GPIO (1) with bus 0x24
+[  3796][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 35 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  3798][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  3799][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 36 successfully set to type INIT (0) with bus 0x0
+[  3800][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 35 successfully set to type INIT (0) with bus 0x0
+[  3813][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  3814][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  3815][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  3815][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  3816][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3817][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type GPIO (1) with bus 0x6
+[  3818][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  3818][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3819][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type GPIO (1) with bus 0x7
+[  3819][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  3822][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:2f = 00000000
+[  3823][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:70 = 00000000
+[  3824][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type INIT (0) with bus 0x0
+[  3824][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type INIT (0) with bus 0x0
+[  3827][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  3828][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  3829][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  3830][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  3830][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3831][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 7 successfully set to type GPIO (1) with bus 0x8
+[  3832][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 7 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  3832][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3833][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 9 successfully set to type GPIO (1) with bus 0xa
+[  3833][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 9 successfully set to type SPI_MASTER_MISO (35) with bus 0x1
+[  3834][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3835][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 8 successfully set to type GPIO (1) with bus 0x9
+[  3835][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 8 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  3839][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  3840][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 7 successfully set to type INIT (0) with bus 0x0
+[  3841][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 9 successfully set to type INIT (0) with bus 0x0
+[  3841][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 8 successfully set to type INIT (0) with bus 0x0
+[  3844][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type I2C_MASTER_SDA (30) successfully set to 0x420130f8
+[  3845][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type I2C_MASTER_SCL (31) successfully set to 0x420130f8
+[  3845][I][esp32-hal-i2c-ng.c:105] i2cInit(): Initializing I2C Master: num=1 sda=12 scl=11 freq=100000
+[  3847][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 12 successfully set to type I2C_MASTER_SDA (30) with bus 0x2
+[  3848][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 11 successfully set to type I2C_MASTER_SCL (31) with bus 0x2
+[  3849][V][common.cpp:1632] writeBytes(): [LGFX] i2c write error : ack wait
+[  3850][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 11 successfully set to type INIT (0) with bus 0x0
+[  3851][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 12 successfully set to type INIT (0) with bus 0x0
+[  3852][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  3853][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  3854][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  3854][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  3855][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3856][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type GPIO (1) with bus 0x7
+[  3857][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  3857][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3858][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type GPIO (1) with bus 0x6
+[  3859][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  3861][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  3862][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type INIT (0) with bus 0x0
+[  3863][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type INIT (0) with bus 0x0
+[  3867][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  3867][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  3868][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  3869][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  3869][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3870][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 17 successfully set to type GPIO (1) with bus 0x12
+[  3871][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 17 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  3872][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3872][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 21 successfully set to type GPIO (1) with bus 0x16
+[  3873][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 21 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  3875][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  3876][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 17 successfully set to type INIT (0) with bus 0x0
+[  3877][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 21 successfully set to type INIT (0) with bus 0x0
+[  3880][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  3881][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  3881][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  3882][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  3883][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3883][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type GPIO (1) with bus 0x7
+[  3884][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  3885][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3885][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type GPIO (1) with bus 0x6
+[  3886][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  3888][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  3889][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type INIT (0) with bus 0x0
+[  3890][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type INIT (0) with bus 0x0
+[  3893][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  3894][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  3894][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  3895][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  3896][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3897][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 36 successfully set to type GPIO (1) with bus 0x25
+[  3897][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 36 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  3898][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3898][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 35 successfully set to type GPIO (1) with bus 0x24
+[  3899][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 35 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  3901][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  3903][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 36 successfully set to type INIT (0) with bus 0x0
+[  3903][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 35 successfully set to type INIT (0) with bus 0x0
+[  3916][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  3917][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  3918][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  3918][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  3919][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3920][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type GPIO (1) with bus 0x6
+[  3921][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  3921][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3922][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type GPIO (1) with bus 0x7
+[  3922][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  3925][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:2f = 00000000
+[  3926][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:70 = 00000000
+[  3927][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type INIT (0) with bus 0x0
+[  3927][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type INIT (0) with bus 0x0
+[  3930][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  3931][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  3932][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  3932][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  3933][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3934][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 7 successfully set to type GPIO (1) with bus 0x8
+[  3935][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 7 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  3935][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3936][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 9 successfully set to type GPIO (1) with bus 0xa
+[  3937][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 9 successfully set to type SPI_MASTER_MISO (35) with bus 0x1
+[  3937][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3938][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 8 successfully set to type GPIO (1) with bus 0x9
+[  3938][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 8 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  3942][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  3943][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 7 successfully set to type INIT (0) with bus 0x0
+[  3944][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 9 successfully set to type INIT (0) with bus 0x0
+[  3944][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 8 successfully set to type INIT (0) with bus 0x0
+[  3947][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type I2C_MASTER_SDA (30) successfully set to 0x420130f8
+[  3948][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type I2C_MASTER_SCL (31) successfully set to 0x420130f8
+[  3949][I][esp32-hal-i2c-ng.c:105] i2cInit(): Initializing I2C Master: num=1 sda=12 scl=11 freq=100000
+[  3950][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 12 successfully set to type I2C_MASTER_SDA (30) with bus 0x2
+[  3951][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 11 successfully set to type I2C_MASTER_SCL (31) with bus 0x2
+[  3952][V][common.cpp:1632] writeBytes(): [LGFX] i2c write error : ack wait
+[  3953][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 11 successfully set to type INIT (0) with bus 0x0
+[  3954][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 12 successfully set to type INIT (0) with bus 0x0
+[  3956][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  3956][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  3957][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  3958][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  3958][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3959][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type GPIO (1) with bus 0x7
+[  3960][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  3961][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3961][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type GPIO (1) with bus 0x6
+[  3962][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  3964][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  3966][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type INIT (0) with bus 0x0
+[  3966][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type INIT (0) with bus 0x0
+[  3970][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  3971][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  3972][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  3972][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  3973][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3974][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 17 successfully set to type GPIO (1) with bus 0x12
+[  3975][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 17 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  3975][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3976][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 21 successfully set to type GPIO (1) with bus 0x16
+[  3977][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 21 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  3979][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  3980][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 17 successfully set to type INIT (0) with bus 0x0
+[  3981][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 21 successfully set to type INIT (0) with bus 0x0
+[  3984][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  3985][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  3985][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  3986][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  3987][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3988][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type GPIO (1) with bus 0x7
+[  3988][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  3989][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  3989][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type GPIO (1) with bus 0x6
+[  3990][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  3992][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  3994][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type INIT (0) with bus 0x0
+[  3994][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type INIT (0) with bus 0x0
+[  3997][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  3998][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  3999][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  4000][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  4000][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4001][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 36 successfully set to type GPIO (1) with bus 0x25
+[  4002][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 36 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  4002][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4003][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 35 successfully set to type GPIO (1) with bus 0x24
+[  4004][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 35 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  4006][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  4007][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 36 successfully set to type INIT (0) with bus 0x0
+[  4008][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 35 successfully set to type INIT (0) with bus 0x0
+[  4021][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  4022][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  4023][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  4024][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  4024][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4025][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type GPIO (1) with bus 0x6
+[  4026][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  4027][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4027][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type GPIO (1) with bus 0x7
+[  4028][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  4030][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:2f = 00000000
+[  4032][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:70 = 00000000
+[  4032][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type INIT (0) with bus 0x0
+[  4033][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type INIT (0) with bus 0x0
+[  4035][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  4037][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  4037][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  4038][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  4039][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4039][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 7 successfully set to type GPIO (1) with bus 0x8
+[  4040][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 7 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  4041][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4041][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 9 successfully set to type GPIO (1) with bus 0xa
+[  4042][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 9 successfully set to type SPI_MASTER_MISO (35) with bus 0x1
+[  4042][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4043][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 8 successfully set to type GPIO (1) with bus 0x9
+[  4044][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 8 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  4047][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  4048][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 7 successfully set to type INIT (0) with bus 0x0
+[  4049][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 9 successfully set to type INIT (0) with bus 0x0
+[  4050][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 8 successfully set to type INIT (0) with bus 0x0
+[  4052][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type I2C_MASTER_SDA (30) successfully set to 0x420130f8
+[  4053][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type I2C_MASTER_SCL (31) successfully set to 0x420130f8
+[  4054][I][esp32-hal-i2c-ng.c:105] i2cInit(): Initializing I2C Master: num=1 sda=12 scl=11 freq=100000
+[  4055][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 12 successfully set to type I2C_MASTER_SDA (30) with bus 0x2
+[  4056][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 11 successfully set to type I2C_MASTER_SCL (31) with bus 0x2
+[  4057][V][common.cpp:1632] writeBytes(): [LGFX] i2c write error : ack wait
+[  4058][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 11 successfully set to type INIT (0) with bus 0x0
+[  4059][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 12 successfully set to type INIT (0) with bus 0x0
+[  4072][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  4073][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  4074][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  4074][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  4075][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4076][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type GPIO (1) with bus 0x7
+[  4077][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  4078][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4078][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type GPIO (1) with bus 0x6
+[  4079][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  4081][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  4083][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type INIT (0) with bus 0x0
+[  4083][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type INIT (0) with bus 0x0
+[  4098][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  4099][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  4100][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  4100][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  4101][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4102][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 17 successfully set to type GPIO (1) with bus 0x12
+[  4103][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 17 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  4103][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4104][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 21 successfully set to type GPIO (1) with bus 0x16
+[  4105][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 21 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  4107][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  4108][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 17 successfully set to type INIT (0) with bus 0x0
+[  4109][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 21 successfully set to type INIT (0) with bus 0x0
+[  4122][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  4123][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  4124][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  4124][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  4125][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4126][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type GPIO (1) with bus 0x7
+[  4127][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  4127][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4128][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type GPIO (1) with bus 0x6
+[  4129][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  4131][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  4132][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type INIT (0) with bus 0x0
+[  4133][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type INIT (0) with bus 0x0
+[  4146][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  4147][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  4148][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  4149][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  4149][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4150][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 36 successfully set to type GPIO (1) with bus 0x25
+[  4151][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 36 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  4151][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4152][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 35 successfully set to type GPIO (1) with bus 0x24
+[  4153][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 35 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  4155][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  4156][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 36 successfully set to type INIT (0) with bus 0x0
+[  4157][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 35 successfully set to type INIT (0) with bus 0x0
+[  4170][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  4171][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  4172][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  4173][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  4173][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4174][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type GPIO (1) with bus 0x6
+[  4175][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  4175][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4176][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type GPIO (1) with bus 0x7
+[  4177][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  4179][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:2f = 00000000
+[  4180][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:70 = 00000000
+[  4181][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type INIT (0) with bus 0x0
+[  4181][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type INIT (0) with bus 0x0
+[  4195][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  4196][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  4197][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  4197][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  4198][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4199][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 7 successfully set to type GPIO (1) with bus 0x8
+[  4200][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 7 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  4200][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4201][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 9 successfully set to type GPIO (1) with bus 0xa
+[  4201][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 9 successfully set to type SPI_MASTER_MISO (35) with bus 0x1
+[  4202][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4203][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 8 successfully set to type GPIO (1) with bus 0x9
+[  4203][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 8 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  4207][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  4208][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 7 successfully set to type INIT (0) with bus 0x0
+[  4209][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 9 successfully set to type INIT (0) with bus 0x0
+[  4209][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 8 successfully set to type INIT (0) with bus 0x0
+[  4211][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type I2C_MASTER_SDA (30) successfully set to 0x420130f8
+[  4213][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type I2C_MASTER_SCL (31) successfully set to 0x420130f8
+[  4213][I][esp32-hal-i2c-ng.c:105] i2cInit(): Initializing I2C Master: num=1 sda=12 scl=11 freq=100000
+[  4215][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 12 successfully set to type I2C_MASTER_SDA (30) with bus 0x2
+[  4215][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 11 successfully set to type I2C_MASTER_SCL (31) with bus 0x2
+[  4217][V][common.cpp:1632] writeBytes(): [LGFX] i2c write error : ack wait
+[  4218][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 11 successfully set to type INIT (0) with bus 0x0
+[  4218][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 12 successfully set to type INIT (0) with bus 0x0
+[  4231][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  4232][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  4233][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  4233][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  4234][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4235][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type GPIO (1) with bus 0x7
+[  4236][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  4236][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4237][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type GPIO (1) with bus 0x6
+[  4238][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  4240][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  4241][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type INIT (0) with bus 0x0
+[  4242][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type INIT (0) with bus 0x0
+[  4256][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  4257][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  4258][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  4258][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  4259][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4260][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 17 successfully set to type GPIO (1) with bus 0x12
+[  4261][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 17 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  4261][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4262][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 21 successfully set to type GPIO (1) with bus 0x16
+[  4263][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 21 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  4265][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  4266][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 17 successfully set to type INIT (0) with bus 0x0
+[  4267][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 21 successfully set to type INIT (0) with bus 0x0
+[  4280][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  4281][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  4282][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  4282][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  4283][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4284][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type GPIO (1) with bus 0x7
+[  4285][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  4285][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4286][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type GPIO (1) with bus 0x6
+[  4286][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  4289][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  4290][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type INIT (0) with bus 0x0
+[  4291][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type INIT (0) with bus 0x0
+[  4304][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  4305][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  4306][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  4307][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  4307][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4308][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 36 successfully set to type GPIO (1) with bus 0x25
+[  4309][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 36 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  4309][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4310][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 35 successfully set to type GPIO (1) with bus 0x24
+[  4311][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 35 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  4313][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  4314][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 36 successfully set to type INIT (0) with bus 0x0
+[  4315][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 35 successfully set to type INIT (0) with bus 0x0
+[  4328][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  4329][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  4330][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  4330][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  4331][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4332][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type GPIO (1) with bus 0x6
+[  4333][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  4333][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4334][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type GPIO (1) with bus 0x7
+[  4334][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  4337][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:2f = 00000000
+[  4338][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:70 = 00000000
+[  4338][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 5 successfully set to type INIT (0) with bus 0x0
+[  4339][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 6 successfully set to type INIT (0) with bus 0x0
+[  4352][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SCK (34) successfully set to 0x42016830
+[  4353][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MISO (35) successfully set to 0x42016758
+[  4354][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_MOSI (36) successfully set to 0x4201667c
+[  4354][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type SPI_MASTER_SS (37) successfully set to 0x42016568
+[  4355][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4356][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 7 successfully set to type GPIO (1) with bus 0x8
+[  4357][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 7 successfully set to type SPI_MASTER_SCK (34) with bus 0x1
+[  4357][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4358][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 9 successfully set to type GPIO (1) with bus 0xa
+[  4359][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 9 successfully set to type SPI_MASTER_MISO (35) with bus 0x1
+[  4359][V][esp32-hal-periman.c:235] perimanSetBusDeinit(): Deinit function for type GPIO (1) successfully set to 0x42048af0
+[  4360][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 8 successfully set to type GPIO (1) with bus 0x9
+[  4360][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 8 successfully set to type SPI_MASTER_MOSI (36) with bus 0x1
+[  4364][D][M5GFX.cpp:596] _read_panel_id(): [M5GFX] [Autodetect] read cmd:04 = 00000000
+[  4365][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 7 successfully set to type INIT (0) with bus 0x0
+[  4366][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 9 successfully set to type INIT (0) with bus 0x0
+[  4366][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 8 successfully set to type INIT (0) with bus 0x0
+[  4900][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 19 already has type USB_DM (45) with bus 0x3fc98a2c
+[  4901][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 20 already has type USB_DP (46) with bus 0x3fc98a2c
+[  5402][V][esp32-hal-uart.c:676] uartBegin(): UART2 baud(9600) Mode(800001c) rxPin(2) txPin(4)
+[  5403][V][esp32-hal-uart.c:774] uartBegin(): UART2 not installed. Starting installation
+[  5403][V][esp32-hal-uart.c:784] uartBegin(): UART2 RX FIFO full threshold set to 120 (value requested: 120 || FIFO Max = 128)
+[  5404][V][esp32-hal-uart.c:810] uartBegin(): Setting UART2 to use XTAL clock
+[  5405][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 2 successfully set to type UART_RX (2) with bus 0x3fc94adc
+[  5406][V][esp32-hal-periman.c:160] perimanSetPinBus(): Pin 4 successfully set to type UART_TX (3) with bus 0x3fc94adc
+[  5407][V][esp32-hal-uart.c:874] uartBegin(): UART2 initialization done.
+[  5407][V][esp32-hal-uart.c:925] uartSetRxFIFOFull(): UART2 RX FIFO Full value set to 1 from a requested value of 1
+=========== After Setup Start ============
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   385752 B ( 376.7 KB)
+  Free Bytes        :   347792 B ( 339.6 KB)
+  Allocated Bytes   :    32416 B (  31.7 KB)
+  Minimum Free Bytes:   347448 B ( 339.3 KB)
+  Largest Free Block:   278516 B ( 272.0 KB)
+------------------------------------------
+SPIRAM Memory Info:
+------------------------------------------
+  Total Size        :        0 B (   0.0 KB)
+  Free Bytes        :        0 B (   0.0 KB)
+  Allocated Bytes   :        0 B (   0.0 KB)
+  Minimum Free Bytes:        0 B (   0.0 KB)
+  Largest Free Block:        0 B (   0.0 KB)
+------------------------------------------
+GPIO Info:
+------------------------------------------
+  GPIO : BUS_TYPE[bus/unit][chan]
+  --------------------------------------  
+     2 : UART_RX[2]
+     4 : UART_TX[2]
+    19 : USB_DM
+    20 : USB_DP
+    43 : UART_TX[0]
+    44 : UART_RX[0]
+============ After Setup End =============
+5934
+6934
+7934
+8934
+9934
+10934
+11934
